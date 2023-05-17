@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+    background-color: #000000;
+    background-image: url(imagenes/fondo1.jpg) ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    font-family: 'Varela Round', sans-serif;
+    width: 184vh;
+}
+
+.principal{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    color: white;
+}
+
+.bIni{
+    position: relative;
+    top: -30px;
+    left: 1600px;
+    padding: 1.5rem 2rem;
+    border: 0;
+    color: var(--color-3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    transition: all .2s;
+    cursor: pointer;
+}
+    .bIni:hover {
+    transform: scale(0.75);
+    }
+    
+    .bIni:active{
+    transform: scale(1.025);
+    }
+
+.titulo1{
+    position: relative;
+    font-size: 60px;
+    left: 50px;
+    color: white;
+}
+
+.subtitulo1{
+    position: relative;
+    
+    left: 50px;
+    color: white;
+}
+
+.subtitulo2{
+    position: relative;
+    left: 50px;
+    color: white;
+}
+
+.input-group{
+    top: 20px;
+    position: relative;
+    left: 50px;
+}
+
+.input{
+    padding-top: 20px;
+    padding-left: 300px;
+    font-size: 30px;
+    align-content: center;
+    background: #ffffff;
+    border-radius: 3px;
+    outline: none;
+    color: #444444;
+    border: 1px solid #000000;
+}
+
+.placeholder{
+    position:absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 30px;
+    padding: 0px 5px;
+    color: #000000;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+
+.input:focus + .placeholder,
+.input:not(:placeholder-shown)
++.placeholder{
+    top: -10px;
+    border-radius: 3px;
+    background-color: #ffffff;
+
+}
+
+
+.cont1 { 
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 700px;
+    margin-bottom: 70px;
+    margin-right: 50px;
+    margin-left: 130px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 420px; 
+    height: 400px;
+    background: linear-gradient(to bottom right, #ffee56 , #ff6969 , #000000 );
+}
+
+.cont2 { 
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 130px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 420px; 
+    height: 400px;
+    background: linear-gradient(to bottom right, #ffee56 , #ff6969 , #000000 );
+}
+
+.t1 {
+    color: white;
+    margin: 50px;
+}
+
+.t2 {
+    color: rgb(0, 0, 0);
+    margin: 50px;
+}
+
+.bPro{
+    position: relative;
+    left: 135px;
+    padding: 0.5rem 2rem;
+    border: 0;
+    color: var(--color-3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    transition: all .2s;
+    cursor: pointer;
+    top: -20px;
+}
+    .bPro:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+.bMat{
+    position: relative;
+    left: 135px;
+    padding: 0.5rem 2rem;
+    border: 0;
+    color: var(--color-3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    transition: all .2s;
+    cursor: pointer;
+    top: -20px;
+}
+    .bMat:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+.bFis{
+    position: relative;
+    left: 135px;
+    padding: 0.5rem 2rem;
+    border: 0;
+    color: var(--color-3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    transition: all .2s;
+    cursor: pointer;
+    top: -20px;
+}
+    .bFis:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+.bAlg{
+    position: relative;
+    left: 135px;
+    padding: 0.5rem 2rem;
+    border: 0;
+    color: var(--color-3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    transition: all .2s;
+    cursor: pointer;
+    top: -20px;
+}
+    .bAlg:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+.bRii{
+    position: relative;
+    left: 135px;
+    padding: 0.5rem 2rem;
+    border: 0;
+    color: var(--color-3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    transition: all .2s;
+    cursor: pointer;
+    top: -20px;
+}
+    .bRii:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+.bInv{
+    position: relative;
+    left: 135px;
+    padding: 0.5rem 2rem;
+    border: 0;
+    color: var(--color-3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border-radius: 3px;
+    transition: all .2s;
+    cursor: pointer;
+    top: -20px;
+}
+    .bInv:hover{
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+
+.img1{
+    width: 1910px;
+    margin: -10px;
+}
+
+.infoPro{
+    display: block;
+    margin-top: 100px;
+    margin-left: -10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 1910px;
+
+}
+
+.infoMat{
+    display: block;
+    margin-top: 100px;
+    margin-left: -10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 1910px;
+
+}
+
+.infoFis{
+    display: block;
+    margin-top: 100px;
+    margin-left: -10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 1910px;
+
+}
+
+.infoAlg{
+    display: block;
+    margin-top: 100px;
+    margin-left: -10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 1910px;
+
+}
+
+.infoRii{
+    display: block;
+    margin-top: 100px;
+    margin-left: -10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 1910px;
+
+}
+
+.infoInv{
+    display: block;
+    margin-top: 100px;
+    margin-left: -10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 1910px;
+
+}
